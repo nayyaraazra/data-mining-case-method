@@ -33,12 +33,6 @@ Tes cepat: `AIS_REPEATS=1 AIS_EPOCHS=2 python ais_anomaly_pipeline.py`
 Proses disimpan per ulangan di `output/_checkpoint_rows.pkl`, jadi bila terhenti bisa
 dijalankan ulang dan melanjutkan. Checkpoint diabaikan otomatis bila konfigurasi berubah.
 
-## Mode `unlabelled_train` (belum diuji)
-Latih pada sampel dataset unlabelled, uji pada seluruh data berlabel.
-Isi `UNLAB_DIR` dengan folder file `data_*.pkl` unlabelled (pilih varian resample 120 detik),
-dan atur `UNLAB_MAX_TRAJ` sesuai RAM. Kode mengasumsikan format sama dengan data berlabel
-(aliran objek pickle, satu objek = satu trajectory); bagian ini belum diverifikasi.
-
 ## Output (di `output/`)
 | Berkas | Isi |
 | --- | --- |
