@@ -1,0 +1,8 @@
+tag,0,1
+kinematic,4,1
+kinematic+route_deviation,9,7
+loitering,1,1
+loitering+kinematic+route_deviation,2,3
+loitering+route_deviation,1,0
+other,3,1
+route_deviation,6,1

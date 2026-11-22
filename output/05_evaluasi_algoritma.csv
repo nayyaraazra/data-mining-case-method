@@ -1,0 +1,4 @@
+model,ROC_AUC_mean,ROC_AUC_std,PR_AUC_mean,PR_AUC_std,precision@top10%_mean,precision@top10%_std,recall@top10%_mean,recall@top10%_std,F1@top10%_mean,F1@top10%_std,ROC_AUC_gabungan,AUC_CI95_low,AUC_CI95_high,PR_AUC_gabungan,PR_AUC_acak(prevalensi)
+bilstm,0.8633,0.0087,0.3638,0.019,0.335,0.0285,0.5583,0.0475,0.4187,0.0357,0.8618,0.7618,0.9337,0.3574,0.0593
+hybrid,0.8698,0.0077,0.4251,0.0618,0.345,0.0326,0.575,0.0543,0.4313,0.0408,0.8743,0.7852,0.9423,0.4035,0.0593
+iforest,0.8647,0.0095,0.3761,0.0379,0.345,0.0411,0.575,0.0685,0.4312,0.0514,0.8862,0.799,0.9547,0.4638,0.0593

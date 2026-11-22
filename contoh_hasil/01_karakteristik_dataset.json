@@ -1,0 +1,43 @@
+{
+  "n_trajectory": 521,
+  "n_abnormal": 25,
+  "n_normal": 496,
+  "prevalence_abnormal": 0.048,
+  "n_unique_mmsi": 309,
+  "points_total": 80174,
+  "points_per_traj": {
+    "min": 6,
+    "median": 145.0,
+    "max": 350
+  },
+  "resample_sec": 120,
+  "ROI(lat_min,lat_max,lon_min,lon_max)": [
+    54.5,
+    56,
+    13,
+    16
+  ],
+  "time_start_utc": "2021-12-13 00:00:00",
+  "time_end_utc": "2021-12-13 22:59:58",
+  "sog_knot": {
+    "min": 0.0,
+    "mean": 3.720059461730637,
+    "max": 19.561046981811522
+  },
+  "missing_course_points": 4392,
+  "shiptype_counts": {
+    "30": 99,
+    "36": 21,
+    "37": 54,
+    "40": 12,
+    "51": 9,
+    "55": 6,
+    "60": 69,
+    "70": 196,
+    "80": 54,
+    "90": 1
+  },
+  "abnormal_by_provided_split": {
+    "note": "split bawaan dataset menaruh seluruh/hampir seluruh abnormal di bagian train; tidak dipakai untuk evaluasi"
+  }
+}

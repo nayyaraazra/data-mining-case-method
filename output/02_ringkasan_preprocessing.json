@@ -1,0 +1,13 @@
+{
+  "n_input": 521,
+  "drop_format": 0,
+  "drop_invalid": 0,
+  "points_removed": 0,
+  "cog_filled_points": 4392,
+  "traj_with_cog_filled": 30,
+  "n_clean": 521,
+  "n_short_dropped": 116,
+  "n_final": 405,
+  "n_final_abnormal": 24,
+  "WIN": 30
+}
